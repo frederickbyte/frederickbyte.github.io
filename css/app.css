@@ -191,6 +191,14 @@ footer {
   height: 100px;
 }
 
+.kendo {
+  color: black;
+}
+
+.kendo:hover {
+  font-weight: bold;
+}
+
 .project-subtitle {
   font-size: 18px;
   opacity: 90%;
