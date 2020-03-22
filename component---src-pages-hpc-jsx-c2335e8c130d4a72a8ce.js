@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{YS9k:function(t,e,a){"use strict";a.r(e),a.d(e,"pageQuery",(function(){return c}));var n=a("q1tI"),i=a.n(n),r=a("L12J"),o=a("dmsj");e.default=function(t){var e=t.data,a=t.location,n=e.site.siteMetadata.title;return i.a.createElement(r.a,{location:a,title:n},i.a.createElement(o.a,{title:"HPC Budgeting"}))};var c="1097489062"}}]);
-//# sourceMappingURL=component---src-pages-hpc-jsx-c2335e8c130d4a72a8ce.js.map
