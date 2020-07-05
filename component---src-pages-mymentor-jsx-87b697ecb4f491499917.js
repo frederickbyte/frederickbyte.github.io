@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{Dc4t:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),o=t.n(a),i=t("L12J"),r=t("dmsj");e.default=function(){return o.a.createElement(i.a,null,o.a.createElement(r.a,{title:"MyMentor",description:"mymentor mobile application for Android",lang:"en"}))}}}]);
-//# sourceMappingURL=component---src-pages-mymentor-jsx-87b697ecb4f491499917.js.map
