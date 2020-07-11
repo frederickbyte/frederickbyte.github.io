@@ -27,47 +27,31 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-6a9b019ad4d148c8c67a.js"
+    "url": "webpack-runtime-774405ee23807d58a470.js"
   },
   {
-    "url": "framework-5fc6169171e885c3b522.js"
+    "url": "framework-8dcecaaefd71e2213eb2.js"
   },
   {
-    "url": "styles.08498579dd79d1f8bf4b.css"
+    "url": "styles.b529c69a40b37eda519b.css"
   },
   {
-    "url": "styles-cd63080e784be7b7e7cf.js"
+    "url": "styles-fa79fef4936efa84b233.js"
   },
   {
-    "url": "app-ae7cf54c3b2b1cd356d1.js"
+    "url": "app-5fc565a1f5a5e46508a7.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "f013eff33c9331324526bca424602cc5"
+    "revision": "541f986e2c54cee4dcdf2ead861316b7"
   },
   {
-    "url": "google-fonts/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZM.woff2",
-    "revision": "8276fdb72ae8f4714d4e6eba704cc39f"
+    "url": "google-fonts/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+    "revision": "18682aa5b1ee731888e193ab98bffe2b"
   },
   {
-    "url": "google-fonts/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l52_wFZWMf6.woff2",
-    "revision": "7528fb70e8a4a82c7305e72ff43ac25f"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2",
-    "revision": "6fb1b5623e528e27c18658fecf5ee0ee"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2",
-    "revision": "b7018be9ed6cd94da8b6675b3a468c3b"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2",
-    "revision": "58cd789700850375b834e8b6776002eb"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
-    "revision": "bc3aa95dca08f5fee5291e34959c27bc"
+    "url": "google-fonts/s/vt323/v11/pxiKyp0ihIEF2isfFJU.woff2",
+    "revision": "4dc7de3347f48884a7fb27e0ba6b8f6b"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-70fb75233a3bd8a168d7.js"
@@ -78,7 +62,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "1d990152a8b0e28645daaec899300dae"
+    "revision": "d05f0011b4004f0dfc77529b485558e5"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -171,7 +155,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-ae7cf54c3b2b1cd356d1.js`))) {
+  if (!resources || !(await caches.match(`/app-5fc565a1f5a5e46508a7.js`))) {
     return await fetch(event.request)
   }
 
